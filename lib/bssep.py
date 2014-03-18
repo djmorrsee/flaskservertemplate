@@ -1,0 +1,13 @@
+class bssep:
+    one = '<div class="col-md-1"></div>'
+    two = '<div class="col-md-2"></div>'
+    thr = '<div class="col-md-3"></div>'
+    fou = '<div class="col-md-4"></div>'
+    fiv = '<div class="col-md-5"></div>'
+    six = '<div class="col-md-6"></div>'
+    sev = '<div class="col-md-7"></div>'
+    eig = '<div class="col-md-8"></div>'
+    nin = '<div class="col-md-9"></div>'
+    ten = '<div class="col-md-10"></div>'
+    ele = '<div class="col-md-11"></div>'
+    twe = '<div class="col-md-12"></div>'

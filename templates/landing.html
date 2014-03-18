@@ -1,0 +1,29 @@
+{% extends 'layout_template.html' %}
+{% block js %}
+<script src="{{url_for('static', filename='js/example.js')}}")></script>
+{% endblock %}
+{% block body %}
+<h1>
+Hello!
+</h1>
+    <div>
+        <h2>This is my page template!</h2>
+        <div>
+            <h3>Table Entries</h3>
+            {% for e in entries %}
+            <p class="col-md-12"> {{loop.index}}: {{ e.name }} </p>
+            {% endfor %}
+        </div>
+        <div style="margin-top:10%">
+            <h3>Enter New Entry!</h3>
+            <form role="form">
+                <div class="form-group col-md-6 col-md-offset-3">
+                    <input type="text" class="form-control" id="entryInput" placeholder="Enter Text!"
+                </div>
+                <div class="btn btn-default" id="sub">Submit</div>
+
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
